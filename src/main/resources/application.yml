@@ -1,0 +1,10 @@
+
+
+spring:
+  config:
+    import: optional:file:.env[.properties]
+
+org:
+  zerock:
+    V1: ${org.zerock.V1}
+    V2: ${org.zerock.V2}
